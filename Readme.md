@@ -1,7 +1,7 @@
 <!-- dx-header -->
-# Bambino (DNAnexus Platform App)
+# Coverage-bw (DNAnexus Platform App)
 
-Bambino
+Coverage-bw
 
 This is the source code for an app that runs on the DNAnexus Platform.
 For more information about how to run or modify it, see
