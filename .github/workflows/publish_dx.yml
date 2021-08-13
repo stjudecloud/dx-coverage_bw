@@ -16,7 +16,7 @@ jobs:
         run: echo ${{ github.event.release.tag_name }} | sed 's/^v//' | (read; echo SHORT_VERSION=$REPLY) >> $GITHUB_ENV
       -
         name: Update DX version
-        run: sed -i.bak "s/COVERAGE_SHORT_VERSION/${{ env.SHORT_VERSION }}/" dx_app/dxapp.json
+        run: sed -i.bak "s/COVERAGE_SHORT_VERSION/${{ env.SHORT_VERSION }}/" dxapp.json
       -
         name: Install DX toolkit
         run: pip3 install dxpy
