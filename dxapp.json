@@ -36,7 +36,7 @@
   },
   "summary": "Build a BigWig file from a BAM",
   "title": "Coverage BW (St. Jude)",
-  "openSource": false,
+  "openSource": true,
   "developers": [
     "user-clmcleod",
     "user-athrashe"
